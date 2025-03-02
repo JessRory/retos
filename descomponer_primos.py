@@ -20,6 +20,7 @@ def des_num_prim(numero, llamada=True):
 
     # Solo verificamos si es primo en la primera llamada
     if llamada and numero_primo(numero):
+        
         print('Por lo tanto, sólo es divisible entre uno y sí mismo.')
         
         return [numero, 1]
