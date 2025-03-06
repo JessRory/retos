@@ -61,8 +61,8 @@ def des_num_prim(numero, llamada=True):
     return lista_primos
 
 # Prueba
-numeros_primos = des_num_prim(957)
-numeros_primos.sort()
+numeros_primos = des_num_prim(1974)
+numeros_primos.sort(reverse=True)
 print(numeros_primos)
 
 
